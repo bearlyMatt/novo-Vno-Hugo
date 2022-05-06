@@ -4,9 +4,9 @@
     {{ if  .Site.Params.social.weibo }}
     <!-- Weibo -->
     <li class="navigation__item">
-      <a href="http://weibo.com/{{ .Site.Params.social.weibo}}" title="@{{ .Site.Params.social.weibo}} 的微博" target="_blank">
-        <i class='social fa fa-weibo'></i>
-        <span class="label">Weibo</span>
+      <a href="http://bearlymatt.itch.io/" title="bearlyMatt" target="_blank">
+        <i class="fa-brands fa-itch-io"></i>
+        <span class="label">Itch.io</span>
       </a>
     </li>
     {{ end }}
@@ -14,9 +14,9 @@
     {{ if  .Site.Params.social.github }}
     <!-- Github -->
     <li class="navigation__item">
-      <a href="https://github.com/{{ .Site.Params.social.github}}" title="@{{ .Site.Params.social.github}} 的 Github" target="_blank">
-        <i class='social fa fa-github'></i>
-        <span class="label">Github</span>
+      <a href="https://bearlymatt.bandcamp.com/" title="bearlyMatt" target="_blank">
+        <i class='fa-brands fa-bandcamp'></i>
+        <span class="label">Bandcamp</span>
       </a>
     </li>
     {{ end }}
@@ -24,7 +24,7 @@
     {{ if  .Site.Params.social.twitter }}
     <!-- Twitter -->
     <li class="navigation__item">
-      <a href="http://twitter.com/{{ .Site.Params.social.twitter}}" title="@{{ .Site.Params.social.twitter}}" target="_blank">
+      <a href="http://twitter.com/bearly_matt" title="@bearly_matt" target="_blank">
         <i class='social fa fa-twitter'></i>
         <span class="label">Twitter</span>
       </a>
@@ -34,13 +34,43 @@
     {{ if  .Site.Params.social.gplus }}
     <!-- Google Plus -->
     <li class="navigation__item">
-      <a href="https://plus.google.com/{{ .Site.Params.social.gplus}}" rel="author" title="Google+" target="_blank">
-        <i class='social fa fa-google-plus-square'></i>
-        <span class="label">Google Plus</span>
+      <a href="https://twitch.tv/punckrockturtle" title="PunckRockTurtle" target="_blank">
+        <i class='fa-brands fa-twitch'></i>
+        <span class="label">Twitch</span>
       </a>
     </li>
     {{ end }}
-  
+
+    {{ if  .Site.Params.social.mail }}
+    <!-- Email -->
+    <li class="navigation__item">
+      <a href="https://rollformischief.com" title="Roll For Mischief">
+        <i class="fa-solid fa-dice-d20"></i>
+        <span class="label">Roll for Mischief</span>
+      </a>
+    </li>
+    {{ end }}
+
+    {{ if  .Site.Params.social.mail }}
+    <!-- Email -->
+    <li class="navigation__item">
+      <a href="https://bearsoundstudio.com" title="bearSound Studio">
+        <i class="fa-solid fa-microphone-lines"></i>
+        <span class="label">bearSound Studio</span>
+      </a>
+    </li>
+    {{ end }}
+
+    {{ if  .Site.Params.social.mail }}
+    <!-- Email -->
+    <li class="navigation__item">
+      <a href="https://rollformischief.com" title="Ko-fi">
+        <i class="fa-solid fa-mug-saucer"></i>
+        <span class="label">Ko-Fi</span>
+      </a>
+    </li>
+    {{ end }}
+
     <!-- RSS -->
     <li class="navigation__item">
       <a href="/index.xml" rel="author" title="RSS" target="_blank">
@@ -48,16 +78,6 @@
         <span class="label">RSS</span>
       </a>
     </li>
-  
-    {{ if  .Site.Params.social.mail }}
-    <!-- Email -->
-    <li class="navigation__item">
-      <a href="mailto:{{ .Site.Params.social.mail}}" title="Contact me">
-        <i class='social fa fa-envelope'></i>
-        <span class="label">Email</span>
-      </a>
-    </li>
-    {{ end }}
   
     </ul>
   </nav>
